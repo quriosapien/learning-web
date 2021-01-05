@@ -1,0 +1,20 @@
+{
+  "name": "learning-web",
+  "version": "1.0.0",
+  "description": "Resources for learning developement for web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikmrgrv/learning-web.git"
+  },
+  "keywords": [],
+  "author": "Kumar Gaurav <tweets@ikmrgrv>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikmrgrv/learning-web/issues"
+  },
+  "homepage": "https://github.com/ikmrgrv/learning-web#readme"
+}
