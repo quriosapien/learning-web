@@ -41,12 +41,12 @@ function formSubmit() {
   
   const name = form.elements[0].value;
   const imagelink = form.elements[1].value;
+  
+  // TODO
+  // add the new entry in the values here
 
-  values.push({
-    name,
-    imagelink
-  })
-  renderList();
+  // TODO
+  // Call the renderList function now
   
 }
 

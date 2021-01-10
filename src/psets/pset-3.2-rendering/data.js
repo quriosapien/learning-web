@@ -1,12 +1,20 @@
-let values;
-
-export default values = [
+const values = [
   {
-    "name": "Java",
-    "imagelink": "https://www.bing.com/th?id=OIP.E_lHuvHs6gwjRdTUNoKUJAAAAA&pid=Api&rs=1"
+    'name': 'JavaScript',
+    'imagelink': 'https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png'
   },
   {
-    "name": "Golang",
-    "imagelink": "http://cdn.codesamplez.com/wp-content/uploads/2015/12/golang.png"
+    'name': 'NodeJs',
+    'imagelink': 'https://cdn.iconscout.com/icon/free/png-64/nodejs-2-226035.png'
+  },
+  {
+    'name': 'TypeScript',
+    'imagelink': 'https://cdn.iconscout.com/icon/free/png-256/typescript-1174965.png'
+  },
+  {
+    'name': 'Webpack',
+    'imagelink': 'https://cdn.iconscout.com/icon/free/png-64/webpack-3-1174982.png'
   }
 ]
+
+export default values

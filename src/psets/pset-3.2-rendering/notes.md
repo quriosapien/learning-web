@@ -1,13 +1,14 @@
 # List Rendering
 
-## Steps:
+## Steps
+
 1. Clear the values already in `DOM`.
 2. `Iterate` through the list, `create element` for each value in the list, add `id, class, attributes, event-listeners` etc appropriately.
 3. Append the new element to its parent.
 4. Vola! You are done.
 
+## Observations
 
-## Observations:
 * Rendring elements from an iteratable list (ex. Array) involves writing so many code in JavaScript.
 * Some of these codes can be reused, but it depends highly on the person writing the functions. I wrote `createElement` with 3 arguments, `payload, success, fail`.
   * Now someone else might want to create it with a list of arguments like `parent, type, id, classList, attributes, children, event listeners, errorInCreation`.

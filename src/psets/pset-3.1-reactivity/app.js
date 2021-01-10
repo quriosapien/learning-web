@@ -4,6 +4,7 @@ const displaybox = ''
 
 // TODO - define the function so that it updates the DOM with latest value
 function dataBinding () {
+  // TODO
   return
 }
 
