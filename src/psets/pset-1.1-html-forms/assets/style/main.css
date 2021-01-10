@@ -1,0 +1,23 @@
+* {
+  text-align: center;
+}
+
+body {
+  padding: 100px 0px;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+}
+
+#searchQuery {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
