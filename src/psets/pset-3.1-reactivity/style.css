@@ -1,0 +1,50 @@
+*, html, body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  margin: 50px;
+  text-align: center;  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(100vh - 50px);
+  width: 100vw;
+}
+
+.inputbox {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 8px;
+  width: 300px;
+  margin: 0px 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.inputbox:focus {
+  outline: none;
+  border: 1px solid black;
+  opacity: 1;
+}
+
+.displaybox {
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px 1px lightslategray;
+  border-radius: 8px;
+  width: 300px;
+  height: 44px;
+  margin: 0px 30px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: black;
+  line-height: 1.25;
+  /* text-shadow: 1px 2px 10px rgba(0, 0, 0, 1); */
+}
