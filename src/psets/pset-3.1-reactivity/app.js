@@ -1,9 +1,11 @@
+// TODO - get reference of the elements in DOM
+const inputbox = ''
+const displaybox = ''
 
-const inputbox = document.getElementById("inputbox");
-const displaybox = document.getElementById("displaybox");
-
+// TODO - define the function so that it updates the DOM with latest value
 function dataBinding () {
-  displaybox.innerText = inputbox.value;
+  return
 }
 
-inputbox.addEventListener('input', dataBinding)
+// TODO - invoke dataBinding function on input event
+inputbox.addEventListener()
